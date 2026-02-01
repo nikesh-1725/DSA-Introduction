@@ -1,6 +1,5 @@
-package org.example;
+package org.example.SearchingTechniques;
 
-import java.sql.Time;
 import java.util.Scanner;
 
 public class BinarySerach {
@@ -11,9 +10,9 @@ public class BinarySerach {
         int val=sc.nextInt();
         int result=findValueInArray(val,a);
         if(result != -1){
-            System.out.println(System.currentTimeMillis());
+            System.out.println(System.currentTimeMillis()/(1000*60));
             System.out.println(LinearSearch.findIndexOfNumber(val, a));
-            System.out.println(System.currentTimeMillis());
+            System.out.println(System.currentTimeMillis()/(1000*60));
             System.out.println("Found the index: "+result);
         }
         else{
@@ -21,7 +20,7 @@ public class BinarySerach {
         }
     }
 
-    private static int findValueInArray(int val, int[] a) {
+    public static int findValueInArray(int val, int[] a) {
         /**
          * a[] => first value and end value we need to take
          * then
