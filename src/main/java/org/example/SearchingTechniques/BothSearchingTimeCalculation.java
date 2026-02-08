@@ -13,8 +13,9 @@ public class BothSearchingTimeCalculation {
         int val = sc.nextInt();
 
         Instant start = Instant.now();
+        int steps=0;
 
-        int result = LinearSearch.findIndexOfNumber(val, a);
+        int result = LinearSearch.findIndexOfNumber(val, a,steps);
 
         Instant end = Instant.now();
 

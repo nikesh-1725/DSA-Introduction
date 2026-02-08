@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ac58b95-dd81-4002-bf3d-294922a4b88e" name="Changes" comment="Binary Search Example">
+    <list default="true" id="2ac58b95-dd81-4002-bf3d-294922a4b88e" name="Changes" comment="Added Binary Search Time complexity check">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SearchingTechniques/BinaryUsingRecurrsion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SortingTechniques/BubbleSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/SortingTechniques/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BinarySerach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SearchingTechniques/BinarySerach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SearchingTechniques/LinearSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SearchingTechniques/BinarySerach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SearchingTechniques/BinarySerach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SearchingTechniques/BothSearchingTimeCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SearchingTechniques/BothSearchingTimeCalculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SearchingTechniques/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SearchingTechniques/LinearSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,17 +28,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "nikesh-1725"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nikesh-1725&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/nikesh-1725/DSA-Introduction.git",
-    "accountId": "bd982d1c-c4fc-40d9-88a3-c729255c63c8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nikesh-1725/DSA-Introduction.git&quot;,
+    &quot;accountId&quot;: &quot;bd982d1c-c4fc-40d9-88a3-c729255c63c8&quot;
   }
+}</component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="390eqv022NEQgdZYopQf0do730H" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,19 +52,37 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BinarySerach.executor": "Run",
+    "Application.BinaryUsingRecurrsion.executor": "Run",
+    "Application.BothSearchingTimeCalculation.executor": "Run",
+    "Application.BubbleSorting.executor": "Run",
     "Application.LinearSearch.executor": "Run",
+    "Application.SelectionSort.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BothSearchingTimeCalculation">
+  <component name="RunManager" selected="Application.SelectionSort">
     <configuration name="BinarySerach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.SearchingTechniques.BinarySerach" />
+      <module name="DSA-Introduction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.SearchingTechniques.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryUsingRecurrsion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SearchingTechniques.BinaryUsingRecurrsion" />
       <module name="DSA-Introduction" />
       <extension name="coverage">
         <pattern>
@@ -82,12 +107,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SearchingTechniques.LinearSearch" />
+    <configuration name="BubbleSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SortingTechniques.BubbleSorting" />
       <module name="DSA-Introduction" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.SearchingTechniques.*" />
+          <option name="PATTERN" value="org.example.SortingTechniques.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SortingTechniques.SelectionSort" />
+      <module name="DSA-Introduction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.SortingTechniques.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,9 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BothSearchingTimeCalculation" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSorting" />
+        <item itemvalue="Application.BinaryUsingRecurrsion" />
         <item itemvalue="Application.BinarySerach" />
-        <item itemvalue="Application.LinearSearch" />
+        <item itemvalue="Application.BothSearchingTimeCalculation" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769953763333</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Binary Search Time complexity check">
+      <option name="closed" value="true" />
+      <created>1769954681243</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1769954681243</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +218,18 @@
     <MESSAGE value="Just to check" />
     <MESSAGE value="LinearSearch Example" />
     <MESSAGE value="Binary Search Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Search Example" />
+    <MESSAGE value="Added Binary Search Time complexity check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Binary Search Time complexity check" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/SearchingTechniques/LinearSearch.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
